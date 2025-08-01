@@ -1,0 +1,141 @@
+{
+    "FullName": {
+        "title": "Full Name",
+        "tag": "FullName",
+        "value": "Enter your full name",
+        "type": "Text",
+        "canDelete": true,
+        "canEdit": true
+    },
+    "EmailID": {
+        "title": "Email Address",
+        "tag": "EmailID",
+        "value": "Enter your email address",
+        "type": "Text",
+        "canDelete": true,
+        "canEdit": true
+    },
+    "ReviewDate": {
+        "title": "Date of Review",
+        "tag": "ReviewDate",
+        "value": "2025-01-01",
+        "type": "Date",
+        "canDelete": false,
+        "canEdit": false
+    },
+    "ProductName": {
+        "title": "Product Name",
+        "tag": "ProductName",
+        "value": "Enter product name",
+        "type": "Text",
+        "canDelete": true,
+        "canEdit": true
+    },
+    "ProductCategory": {
+        "title": "Category",
+        "tag": "ProductCategory",
+        "type": "DropDownList",
+        "value": "Select a category",
+        "canDelete": true,
+        "canEdit": true,
+        "items": [
+            "Mobiles",
+            "Electronics",
+            "Fashion",
+            "Books",
+            "Grocery"
+        ]
+    },
+    "PurchaseDate": {
+        "title": "Purchase Date",
+        "tag": "PurchaseDate",
+        "value": "2025-01-01",
+        "type": "Date",
+        "canDelete": false,
+        "canEdit": false
+    },
+    "OverallRating": {
+        "title": "Overall Rating (1-5)",
+        "tag": "OverallRating",
+        "type": "ComboBox",
+        "value": "Select rating (1-5)",
+        "canDelete": false,
+        "canEdit": false,
+        "items": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    "ProductQuality": {
+        "title": "Product Quality",
+        "tag": "ProductQuality",
+        "type": "ComboBox",
+        "value": "Rate product quality",
+        "canDelete": false,
+        "canEdit": false,
+        "items": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    "ValueForMoney": {
+        "title": "Value for Money",
+        "tag": "ValueForMoney",
+        "type": "ComboBox",
+        "value": "Rate value for money",
+        "canDelete": false,
+        "canEdit": false,
+        "items": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    "EaseOfUse": {
+        "title": "Ease of Use",
+        "tag": "EaseOfUse",
+        "type": "ComboBox",
+        "value": "Rate ease of use",
+        "canDelete": false,
+        "canEdit": false,
+        "items": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    "ReviewTitle": {
+        "title": "Review Title",
+        "tag": "ReviewTitle",
+        "value": "Enter review title",
+        "type": "Text",
+        "canDelete": true,
+        "canEdit": true
+    },
+    "ReviewDetails": {
+        "title": "Detailed Review",
+        "tag": "ReviewDetails",
+        "value": "Write your detailed review",
+        "type": "RichText",
+        "canDelete": true,
+        "canEdit": true
+    },
+    "RecommendProduct": {
+        "title": "Recommend Product",
+        "tag": "RecommendProduct",
+        "type": "CheckBox",
+        "value": "false",
+        "canDelete": false,
+        "canEdit": false
+    }
+}
