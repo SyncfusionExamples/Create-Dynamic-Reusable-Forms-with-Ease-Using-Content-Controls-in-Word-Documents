@@ -21,7 +21,7 @@ function DocumentEditor() {
   const [contentControlElementCount, setContentControlElementCount] = useState(0);
   let isDragElement = false;
   let currentContentControl = null;
-  const defaultDocument = '';
+  let defaultDocument = '';
   let contentControlList = JSON.parse(localStorage.getItem("contentControlList")) || contentControlData;
   
   
@@ -60,14 +60,14 @@ function DocumentEditor() {
     }
   }
 
-    // Convert GitHub Raw document to SFDT and load in Editor.
+  // Convert GitHub Raw document to SFDT and load in Editor.
   const convertDocxToSfdt = async () => {
     try {
-      const docxResponse = await fetch('https://raw.githubusercontent.com/syncfusion/blazor-showcase-document-explorer/master/server/wwwroot/Files/Documents/Giant%20Panda.docx');
+      const docxResponse = await fetch('https://raw.githubusercontent.com/SyncfusionExamples/Create-Dynamic-Reusable-Forms-with-Ease-Using-Content-Controls-in-Word-Documents/master/public/docs/Customer_Review_Form.docx');
       const docxBlob = await docxResponse.blob();
 
       const formData = new FormData();
-      formData.append('files', docxBlob, 'GiantPanda.docx');
+      formData.append('files', docxBlob, 'Customer_Review_Form.docx');
 
       const importResponse = await fetch('https://ej2services.syncfusion.com/production/web-services/api/documenteditor/Import', {
         method: 'POST',
