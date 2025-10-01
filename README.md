@@ -10,7 +10,7 @@ This repository provides a working example of how to build dynamic, reusable for
 
 - **Documentation:**   [Syncfusion® Word Processor](https://help.syncfusion.com/document-processing/word/word-processor/react/getting-started) 
 
-- **Online demo:**   [Syncfusion® Word Processor - Demo](https://ej2.syncfusion.com/react/demos/) 
+- **Online demo:**   [Syncfusion® Word Processor - Demo](https://document.syncfusion.com/#/docx-editor-sdk) 
 
 # Support and feedback 
 
