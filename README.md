@@ -1,7 +1,5 @@
 # Create Dynamic, Reusable Forms with Ease Using Content Controls in Word Documents
 
-Content controls are individual controls that you can add and customize to use in templates, forms, and documents. For example, many online forms are designed with a drop-down list control that provides a restricted set of choices.
-
 This repository provides a working example of how to build dynamic, reusable forms using content controls in Word documents with the Syncfusion Document Editor (a.k.a. Word Processor) in a React application. It demonstrates how to design structured forms that adapt to user input and streamline document workflows.
 
  # Resources 
